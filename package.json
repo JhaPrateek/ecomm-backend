@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start":"node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhaPrateek/ecom-bd.git"
+  },
+  "author": "Prateek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JhaPrateek/ecom-bd/issues"
+  },
+  "homepage": "https://github.com/JhaPrateek/ecom-bd#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.4",
+    "nodemon": "^3.1.0"
+  }
+}
